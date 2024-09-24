@@ -1,0 +1,16 @@
+[
+    {"gate": "CNOT", "wires": [0, 1]},
+    {"gate": "CNOT", "wires": [1, 2]},
+    {"gate": "CNOT", "wires": [2, 3]},
+    {"gate": "PauliZ", "wires": [0]},
+    {"gate": "PauliX", "wires": [0]},
+    {"gate": "PauliY", "wires": [1]},
+    {"gate": "CNOT", "wires": [1, 2]},
+    {"gate": "CNOT", "wires": [3, 4]},
+    {"gate": "CNOT", "wires": [7, 11]},
+    {"gate": "CNOT", "wires": [6, 9]},
+    {"gate": "PauliX", "wires": [3]},
+    {"gate": "PauliY", "wires": [4]},
+    {"gate": "CNOT", "wires": [5, 10]},
+    {"gate": "CNOT", "wires": [4, 8]}
+]

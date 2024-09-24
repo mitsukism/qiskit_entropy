@@ -1,0 +1,13 @@
+{
+    "qubits": 8,
+    "num_wires": 16,
+    "num_layers": 3,
+    "N": 256,
+    "seed": 42,
+    "num_shots": 10000,
+    "num_of_epochs": 1500,
+    "learning_rate": 0.01,
+    "num_of_samples": 10000,
+    "dimension": 8,
+    "hidden_layer": 16
+}
